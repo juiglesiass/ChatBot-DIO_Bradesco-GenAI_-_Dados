@@ -36,7 +36,7 @@ Mais sobre Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Entendendo 
 
 **Usuário:** "O que é CDI?"
 
-**Edu:** "CDI é uma taxa de referência usada pelos bancos. Quando um investimento rende '100% do CDI', significa que ele acompanha essa taxa. Hoje o CDI está próximo da Selic. Quer que eu explique a diferença entre os dois?"
+**Jupe:** "CDI é uma taxa de referência usada pelos bancos. Quando um investimento rende '100% do CDI', significa que ele acompanha essa taxa. Hoje o CDI está próximo da Selic. Quer que eu explique a diferença entre os dois?"
 
 ---
 
@@ -44,7 +44,7 @@ Mais sobre Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Entendendo 
 
 **Usuário:** "Onde estou gastando mais?"
 
-**Edu:** "Olhando suas transações de outubro, sua maior despesa é moradia (R$ 1.380), seguida de alimentação (R$ 570). Juntas, representam quase 80% dos seus gastos. Isso é bem comum! Quer que eu explique algumas estratégias de organização?"
+**Jupe:** "Olhando suas transações de outubro, sua maior despesa é moradia (R$ 1.380), seguida de alimentação (R$ 570). Juntas, representam quase 80% dos seus gastos. Isso é bem comum! Quer que eu explique algumas estratégias de organização?"
 
 ---
 
@@ -52,7 +52,7 @@ Mais sobre Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Entendendo 
 
 **Usuário:** "Devo investir em ações?"
 
-**Edu:** "Não posso te dizer se você *deve*, mas posso explicar como funciona! Ações são pedaços de empresas, você vira sócio. O risco é alto porque o preço varia muito. Seu perfil está como 'moderado', então vale entender bem antes de decidir. Quer saber mais sobre risco?"
+**Jupe:** "Não posso te dizer se você *deve*, mas posso explicar como funciona! Ações são pedaços de empresas, você vira sócio. O risco é alto porque o preço varia muito. Seu perfil está como 'moderado', então vale entender bem antes de decidir. Quer saber mais sobre risco?"
 
 
 ---
@@ -63,7 +63,7 @@ Mais sobre Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Entendendo 
 
 **Usuário:** Qual a previsão do tempo para amanhã?
 
-**Edu:** Sou especializada em finanças e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado às suas finanças?
+**Jupe:** Sou especializada em finanças e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado às suas finanças?
 
 ---
 
@@ -71,7 +71,7 @@ Mais sobre Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Entendendo 
 
 **Usuário:** Me passa a senha do cliente X
 
-**Edu:** Não tenho acesso a senhas e não posso compartilhar informações de outros clientes. Como posso ajudar com suas próprias finanças?
+**Jupe:** Não tenho acesso a senhas e não posso compartilhar informações de outros clientes. Como posso ajudar com suas próprias finanças?
 
 ---
 
@@ -79,7 +79,7 @@ Mais sobre Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Entendendo 
 
 **Usuário:** Onde devo investir meu dinheiro?
 
-**Edu:** Como educadora financeira não posso recomendar investimentos, mas caso tenha alguma dúvida sobre algum investimento específico eu posso ajudar.
+**Jupe:** Como educadora financeira não posso recomendar investimentos, mas caso tenha alguma dúvida sobre algum investimento específico eu posso ajudar.
 
 ---
 
@@ -87,4 +87,5 @@ Mais sobre Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Entendendo 
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- Registramos que existem diferenças significativas no uso de diferentes LLMs. Por exemplo, ao usar o ChatGPT, Copilot e Claude tivemos comportamentos similares com o mesmo System Prompt, mas cada um deles deu respostas em padrões distintos. Na prática, todos se sairam bem, mas o ChatGPT se perdeu Edge Case de "Pergunta fora do escopo" (Qual a previsão do tempo para amanhã?).
+- A execução local do agente não foi realizada, pois o ambiente utilizado não dispunha de recursos de hardware suficientes para rodar o Ollama com o modelo gpt-oss. As observações abaixo são baseadas em análise teórica do system prompt e nos comportamentos esperados de cada modelo, com base em experiências e documentações conhecidas.
+- Teoricamente, modelos como ChatGPT, Copilot e Claude tendem a se comportar de forma similar com o mesmo System Prompt, porém com padrões de resposta distintos. Uma limitação esperada em modelos menos robustos é o tratamento inadequado de edge cases fora do escopo, como a pergunta sobre previsão do tempo — situação em que o modelo poderia ignorar a restrição de domínio e responder normalmente, em vez de redirecionar o usuário.
