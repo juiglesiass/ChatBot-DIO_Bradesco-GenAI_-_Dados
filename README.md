@@ -77,13 +77,13 @@ pip install streamlit pandas requests
 streamlit run src/app.py
 ```
 
-## 🎯 Exemplo de Uso
+## 🎯 Exemplo de Uso (Simulado)
 
 **Pergunta:** "O que é CDI?"  
-**Jupe:** "CDI é uma taxa de referência usada pelos bancos. Quando um investimento rende '100% do CDI', significa que ele acompanha essa taxa. Hoje o CDI está próximo da Selic. Quer que eu explique a diferença entre os dois?"
+**Jupe(esperado):** "CDI é uma taxa de referência usada pelos bancos. Quando um investimento rende '100% do CDI', significa que ele acompanha essa taxa. Hoje o CDI está próximo da Selic. Quer que eu explique a diferença entre os dois?"
 
 **Pergunta:** "Onde estou gastando mais?"  
-**Jupe:** "Olhando suas transações de outubro, sua maior despesa é moradia (R$ 1.380), seguida de alimentação (R$ 570). Juntas, representam quase 80% dos seus gastos. Isso é bem comum! Quer que eu explique algumas estratégias de organização?"
+**Jupe(esperado):** "Olhando suas transações de outubro, sua maior despesa é moradia (R$ 1.380), seguida de alimentação (R$ 570). Juntas, representam quase 80% dos seus gastos. Isso é bem comum! Quer que eu explique algumas estratégias de organização?"
 
 ## 📊 Métricas de Avaliação
 
@@ -99,6 +99,16 @@ streamlit run src/app.py
 - **100% Local:** Roda com Ollama, sem enviar dados para APIs externas
 - **Educativo:** Foco em ensinar, não em vender produtos
 - **Seguro:** Estratégias de anti-alucinação documentadas
+
+## ⚙️ Status do Projeto
+| **Item** | **Status** |
+|---------|----------|
+Documentação do agente | ✅ Concluído
+Base de conhecimento (dados mockados) | ✅ Concluído
+System prompt e exemplos | ✅ Concluído
+Métricas de avaliação | ✅ Concluído
+Código da aplicação (app.py) | ✅ Concluído
+Execução local validada | ❌ Não realizada (limitação de hardware — PC não suportou Ollama + gpt-oss)
 
 ## 📝 Documentação Completa
 
