@@ -1,7 +1,7 @@
 # Base de Conhecimento
 
 > [!TIP]
-> **Prompt usado para esta etapa:**
+> **Prompt para esta etapa:**
 > 
 > Organize a base de conhecimento do agente "Jupe" usando os 4 arquivos da pasta `data/` (em anexo). Explique pra que serve cada arquivo e monte um exemplo de contexto formatado que será enviado pro LLM. Preencha o template abaixo.
 >
