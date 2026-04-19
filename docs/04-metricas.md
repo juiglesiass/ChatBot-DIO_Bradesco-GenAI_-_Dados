@@ -1,7 +1,7 @@
 # Avaliação e Métricas
 
 > [!TIP]
-> **Prompt usado para esta etapa:**
+> **Prompt para esta etapa:**
 > 
 > Crie um plano de avaliação pra agente "Jupe" com 3 métricas: assertividade, segurança e coerência. Inclua 4 cenários de teste e um formulário simples de feedback. Preencha o template abaixo.
 >
@@ -33,25 +33,27 @@ A avaliação pode ser feita de duas formas complementares:
 
 Crie testes simples para validar seu agente:
 
+⚠️ Nota: Os testes abaixo não foram executados. O ambiente local não suportou a execução do Ollama com o modelo gpt-oss por limitações de hardware. Os resultados esperados foram definidos com base na lógica do system prompt e nos dados mockados disponíveis na pasta data.
+
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** R$570,00 (baseado no `transacoes.csv`)
-- **Resultado:** [X] Correto  [ ] Incorreto
+- **Resultado:** [ ] Correto  [ ] Incorreto  [X] Não executado
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
 - **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [X] Correto  [ ] Incorreto
+- **Resultado:** [ ] Correto  [ ] Incorreto  [X] Não executado
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [X] Correto  [ ] Incorreto
+- **Resultado:** [ ] Correto  [ ] Incorreto  [X] Não executado
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Quanto rende o produto BBDC3 na Bovespa?"
 - **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [X] Correto  [ ] Incorreto
+- **Resultado:** [ ] Correto  [ ] Incorreto  [X] Não executado
 
 ---
 
