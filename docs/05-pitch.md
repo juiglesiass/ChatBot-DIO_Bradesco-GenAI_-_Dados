@@ -23,7 +23,7 @@
 > "A Jupe é uma educadora financeira que ensina de forma personalizada. Ela usa seus próprios dados para dar exemplos práticos. Não recomenda investimentos — só educa. É como ter uma professora particular de finanças disponível 24h."
 
 ### 📱 Demo (60 seg)
-> [Compartilhe a tela e faça 2-3 perguntas ao Edu]
+⚠️ Nota: A demo ao vivo não foi realizada. O ambiente local não suportou a execução do Ollama com o modelo gpt-oss por limitações de hardware. As perguntas abaixo representam os cenários de uso previstos para demonstração, com base no comportamento esperado da Jupe conforme o system prompt definido.
 > - "O que é CDI?"
 > - "Onde estou gastando mais?"
 > - "Me explica o que é Tesouro Selic"
@@ -37,7 +37,7 @@
 
 - [ ] Duração máxima de 3 minutos
 - [ ] Problema claramente definido
-- [ ] Solução demonstrada na prática
+- [ ] Demo local não realizada (limitação de hardware — PC não suportou Ollama + gpt-oss)
 - [ ] Diferencial explicado
 - [ ] Áudio e vídeo com boa qualidade
 
@@ -47,4 +47,4 @@
 
 > Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
 
-[Link do vídeo]
+Não foi possível gravar o vídeo de pitch pois a demonstração prática da Jupe dependia da execução local da aplicação, o que não foi viável no meu ambiente. Meu PC não tinha RAM suficiente nem espaço em disco para suportar a instalação e inicialização do Ollama com o modelo gpt-oss — o processo travava antes de concluir. Sem a aplicação rodando, não haveria conteúdo real para demonstrar em vídeo. Todo o desenvolvimento está documentado neste repositório: arquitetura, base de conhecimento, system prompt, métricas e o roteiro previsto da demo, que representa fielmente o comportamento esperado da Jupe.
