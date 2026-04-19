@@ -1,7 +1,7 @@
 # Documentação do Agente
 
 > [!TIP]
-> **Prompt usado para esta etapa:**
+> **Prompt para esta etapa:**
 > 
 > Crie a documentação de um agente chamado "Jupe", uma educadora financeira que ensina conceitos de finanças pessoais de forma simples. Ela não recomenda investimentos, apenas educa. Tom informal e didático. Preencha o template abaixo.
 >
