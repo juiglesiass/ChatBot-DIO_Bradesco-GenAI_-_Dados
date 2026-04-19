@@ -55,6 +55,8 @@ flowchart TD
 
 ## 🚀 Como Executar
 
+⚠️ Nota sobre execução local: Durante o desenvolvimento deste projeto, não foi possível executar a aplicação localmente. O ambiente de execução (PC utilizado) não dispunha de recursos de hardware suficientes para suportar a instalação e execução do Ollama em conjunto com o modelo gpt-oss. Por isso, o projeto está documentado como proposta funcional e conceitual, com toda a estrutura de código e configuração preparada para execução em um ambiente com os requisitos mínimos adequados.
+
 ### 1. Instalar Ollama
 
 ```bash
